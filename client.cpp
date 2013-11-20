@@ -83,9 +83,9 @@ Client::Client(QWidget *parent)
     portLabel->setBuddy(portLineEdit);
 
     statusLabel = new QLabel(tr("This examples requires that you run the "
-                                "Fortune Server example as well."));
+                                "Qt TCP Server as well."));
 
-    getFortuneButton = new QPushButton(tr("Get Fortune"));
+    getFortuneButton = new QPushButton(tr("Get Data"));
     getFortuneButton->setDefault(true);
     getFortuneButton->setEnabled(false);
 
